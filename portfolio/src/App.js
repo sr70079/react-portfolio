@@ -1,10 +1,11 @@
 import React from "react";
-import Header from "./components/Header";
 import { BrowserRouter as Router , Route } from "react-router-dom";
+import NavBar from "./components/Nav";
 import Home from "./pages/Home";
-import Projects from "./pages/Projects";
+import Projects from "./pages/Portfolio";
+import Resume from "./pages/Resume"
 import Contact from "./pages/Contact";
-import Footer from "./components/Footer";
+import Footer from "./components/StickyFooter";
 
 
 
@@ -12,13 +13,14 @@ function App() {
 
   return (
     <div>
-      <Header />
-<Router>
-  <Route exact path = "/" component = {Home}/>
-  <Route exact path = "/projects" component = {Projects}/>
-  <Route exact path = "/contact" component = {Contact}/>
-  </Router>
-<Footer />
+      <NavBar />
+      <Router>
+        <Route exact path = "/" component = {Home}/>
+        <Route exact path = "/portfolio" component = {Projects}/>
+        <Route exact path = "/resume" component = {Resume}/>
+        <Route exact path = "/contact" component = {Contact}/>
+      </Router>
+      <Footer />
     </div>
   );
 }
