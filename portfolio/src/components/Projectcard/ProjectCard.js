@@ -1,5 +1,5 @@
 import React from "react";
-// import "./style.css";
+import "./style.css";
 
 function ProjectCard(props) {
   return (
@@ -17,10 +17,10 @@ function ProjectCard(props) {
             <strong>Description:</strong> {props.description}
           </li>
           <li>
-            <strong>GitHub Link:</strong> {props.repoLink}
+            <strong>GitHub Link:</strong> <a href={props.repoLink}>{props.repoLink}</a>
           </li>
           <li>
-            <strong>Deployed Link:</strong> {props.deployedLink}
+            <strong>Deployed Link:</strong> <a href={props.deployedLink}>{props.deployedLink}</a>
           </li>
         </ul>
       </div>

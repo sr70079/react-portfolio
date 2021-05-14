@@ -1,8 +1,8 @@
 import React, {Component} from "react";
 import portfolio from "../utils/portfolio.json"
-import ProjectCard from "../components/ProjectCard"
-import Wrapper from "../components/Wrapper";
-import Title from "../components/Title";
+import ProjectCard from "../components/Projectcard/ProjectCard"
+import Wrapper from "../components/Wrapper/Wrapper";
+import Title from "../components/Title/Title";
 
 class Projects extends Component {
     // Setting this.state.portfolios to the portfolios json array
@@ -14,7 +14,7 @@ render() {
 
     return (
         <Wrapper>
-          <Title>portfolio List</Title>
+          {/* <Title>Portfolio List</Title> */}
           {this.state.portfolio.map(portfolio => (
           <ProjectCard
             title={portfolio.title}

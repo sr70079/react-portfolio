@@ -2,14 +2,14 @@
     {
         "title" : "Weather Dashboard",
         "thumbnail" : "/images/weather-app.png",
-        "description" : "Current weather and 5 day forecast displayed with a special UV Indext indicator. This app utilizes various APIs to gather all data as well as local storage to see a list of previously searched cities.",
+        "description" : "Using OpenWeather API I created a weather dashboard that allows the user to view current and future weather conditions for multiple cities.",
         "repoLink" : "https://github.com/sr70079/Weather-Dashboard",
         "deployedLink" : "https://sr70079.github.io/Weather-Dashboard/"
     },
     {
         "title" : "Team Profile Generator",
         "thumbnail" : "/images/team-profile-gen.png",
-        "description" : "Command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.",
+        "description" : "Command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage and displays a summary each person.",
         "repoLink" : "https://github.com/sr70079/Team-Profile-Generator",
         "deployedLink" : "https://github.com/sr70079/Team-Profile-Generator"
     },
@@ -30,7 +30,7 @@
     {
         "title" : "Note Taker",
         "thumbnail" : "/images/note-taker.png",
-        "description" : "An application that can be used to write and save notes. The notes can help organize and keep track of tasks that need to be completed. This application will use an Express.js back end and will save and retrieve note data from a JSON file.",
+        "description" : "An application used to create and save notes. The notes can be stored locally so the user can come back and see them later.",
         "repoLink" : "https://github.com/sr70079/Note-Taker",
         "deployedLink" : "https://cryptic-dusk-48618.herokuapp.com/"
     },   

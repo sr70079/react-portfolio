@@ -1,2 +1,2 @@
-# react-portfolio
-Sarah Marshall portfolio using react
+# Sarah Marshall React Portfolio
+
