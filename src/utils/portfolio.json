@@ -1,14 +1,14 @@
 [
     {
         "title" : "Weather Dashboard",
-        "thumbnail" : "/images/weather-app.png",
+        "thumbnail" : "./images/weather-app.png",
         "description" : "Using OpenWeather API I created a weather dashboard that allows the user to view current and future weather conditions for multiple cities.",
         "repoLink" : "https://github.com/sr70079/Weather-Dashboard",
         "deployedLink" : "https://sr70079.github.io/Weather-Dashboard/"
     },
     {
         "title" : "Team Profile Generator",
-        "thumbnail" : "/images/team-profile-gen.png",
+        "thumbnail" : "./images/team-profile-gen.png",
         "description" : "Command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage and displays a summary each person.",
         "repoLink" : "https://github.com/sr70079/Team-Profile-Generator",
         "deployedLink" : "https://github.com/sr70079/Team-Profile-Generator"

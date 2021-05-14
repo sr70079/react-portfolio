@@ -1,4 +1,5 @@
 import React from "react";
+// import resume from "./images/resume.pdf"
 
 function Resume() {
     return (

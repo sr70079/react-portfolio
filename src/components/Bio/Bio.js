@@ -1,4 +1,5 @@
 import React from "react";
+import smphoto from "./images/personal-photo.jpeg"
 
 function Bio (props) {
   return (
@@ -10,7 +11,7 @@ function Bio (props) {
                 <div className="row">
 
                     <div className="col-6">
-                        <img className="img-fluid" src="images/personal-photo.JPEG" alt="Responsive" id="profile" size="100px" />
+                        <img className="img-fluid" src={smphoto} alt="Responsive" id="profile" size="100px" />
                     </div>
 
                     <div className="col-6">
