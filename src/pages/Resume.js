@@ -1,11 +1,11 @@
 import React from "react";
-// import resume from "./images/resume.pdf"
+import resume from "./images/resume.pdf"
 
 function Resume() {
     return (
         <div className="container">
             <h1>Sarah Marshall Resume</h1>
-            <iframe src="./images/resume.pdf" width="100%" height="1000px">
+            <iframe src={resume} width="100%" height="1000px">
             </iframe>
         </div>
  
